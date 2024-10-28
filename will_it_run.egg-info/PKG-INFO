@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: will-it-run
-Version: 1.0.0
-License-File: LICENSE
-Requires-Dist: Click
-Requires-Dist: html2text
-Requires-Dist: rapidfuzz
-Requires-Dist: requests

@@ -1,4 +1,0 @@
-Click
-html2text
-rapidfuzz
-requests
