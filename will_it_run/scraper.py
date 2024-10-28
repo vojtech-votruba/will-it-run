@@ -1,7 +1,6 @@
 import requests
 import platform
 from rapidfuzz import fuzz
-import re
 
 def search(name: str):
     URL_games = "https://api.steampowered.com/ISteamApps/GetAppList/v2/"
@@ -24,10 +23,10 @@ def search(name: str):
                 if res[str(app["appid"])]["data"]["type"] == "game":
                     max_alignment = alignment
                     app_id = str(app["appid"])
-                
+            
                 else:
                     continue
-
+            
             except:
                 continue
 

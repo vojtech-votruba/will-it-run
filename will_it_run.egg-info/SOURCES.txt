@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+will_it_run/__init__.py
+will_it_run/scraper.py
+will_it_run.egg-info/PKG-INFO
+will_it_run.egg-info/SOURCES.txt
+will_it_run.egg-info/dependency_links.txt
+will_it_run.egg-info/entry_points.txt
+will_it_run.egg-info/requires.txt
+will_it_run.egg-info/top_level.txt

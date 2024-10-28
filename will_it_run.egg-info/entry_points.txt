@@ -1,0 +1,2 @@
+[console_scripts]
+will-it-run = will_it_run.scripts.will_it_run:cli

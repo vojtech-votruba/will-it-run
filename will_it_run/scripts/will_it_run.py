@@ -1,12 +1,13 @@
 import click
 import platform
 from html2text import html2text
-from scraper import search
+from ..scraper import search
 
 @click.command()
 @click.argument("game")
-@click.option("--rec", default=False, help="Choose this option for echoing recommended instead of minimal requirements.")
-def compare(game: str, rec: bool):
+@click.option("--rec", default=False, is_flag=True, help="Choose this option for echoing\
+               recommended instead of minimal requirements.", show_default=True)
+def cli(game: str, rec: bool):
     """
     The main function for comparing your sys requirements with the game's
     recommended requirements
@@ -31,6 +32,3 @@ def compare(game: str, rec: bool):
             min = req["minimum"]
             print("The minimal requirements are:")
             print(html2text(min))
-
-if __name__ == '__main__':
-    compare()
