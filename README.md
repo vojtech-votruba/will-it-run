@@ -1,5 +1,5 @@
 # will-it-run
-A CLI scraper app for getting minimal or recommended requirements of a video game without using any browser or stupid GUI.
+A CLI app for getting minimal or recommended requirements of a video game without using any browser or stupid GUI.
 The app operates by looking through the games with a SteamPowered API and finding the closest match to the name put in by the user.
 
 ## Setting up the CLI
